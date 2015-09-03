@@ -19,7 +19,7 @@ public class GreetingController implements Controller
       String result = "";
       if (userName != null)
       {
-        result = "Howdy, " + "Your MySQL connection is available at: " System.getenv("MYSQL_PORT");
+        result = "Howdy, " + " Your MySQL connection is available at: " System.getenv("MYSQL_PORT");
       }
 
       ModelAndView view = new ModelAndView("hello_view");
