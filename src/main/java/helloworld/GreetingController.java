@@ -19,7 +19,7 @@ public class GreetingController implements Controller
       String result = "";
       if (userName != null)
       {
-        result = "Hello" + userName + System.getenv("MYSQL_PORT");
+        result = "Hello" + System.getenv("MYSQL_PORT");
       }
 
       ModelAndView view = new ModelAndView("hello_view");
