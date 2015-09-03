@@ -1,7 +1,7 @@
 <html>
   <body bgcolor="white">
     <div style="font-size: 150%; color: #850F0F">
-      <span>Enter your name: </span><br />
+      <span>Enter your name please: </span><br />
       <form method="post" action="hello">
         <input type=text size="15" name="user" >
         <input type=submit name="submit" value="Ok">
