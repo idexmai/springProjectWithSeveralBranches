@@ -30,6 +30,6 @@
       </dependency>
    </dependencies>
    <build>
-      <finalName>greeting</finalName>
+      <finalName>ROOT</finalName>
    </build>
 </project>
