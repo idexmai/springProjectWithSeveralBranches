@@ -19,7 +19,7 @@ public class GreetingController implements Controller
       String result = "";
       if (userName != null)
       {
-        result = "Howdy, " + userName + "! " + "Connect to MYSQL: " + System.getenv("MYSQL_PORT") + " with MySQL credentials are: " + System.getenv("MYSQL_USER") + "/" + System.getenv("MYSQL_PAWWSORD");
+        result = "Howdy, " + userName + "! " + "Connect to MYSQL: " + System.getenv("MYSQL_PORT") + " with MySQL credentials are: " + System.getenv("MYSQL_USER") + "/" + System.getenv("MYSQL_PASSWORD");
       }
 
       ModelAndView view = new ModelAndView("hello_view");
